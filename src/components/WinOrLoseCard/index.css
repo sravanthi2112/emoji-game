@@ -1,0 +1,41 @@
+/* Write your code here. */
+
+.win-or-loose-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  text-align: center;
+  border: 2px yellow solid;
+  width: 100%;
+  font-family: 'Roboto';
+}
+
+.win-loose-title {
+  font-weight: 600;
+  font-size: 45px;
+}
+
+.best-score {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.score {
+  font-size: 35px;
+  color: #6a59ff;
+  font-weight: 500;
+}
+
+.play-again-btn {
+  background-color: #ffce27;
+  border-radius: 10px;
+  border: 0px;
+  font-weight: 600;
+  padding: 8%;
+  color: #3d3d3d;
+}
+
+.win-loose-image{
+  width: 60%;
+}

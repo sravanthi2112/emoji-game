@@ -1,0 +1,57 @@
+/* Write your code here. */
+.navbar-sec {
+  background-color: #ffffff33;
+  color: white;
+  display: flex;
+}
+
+.logo-container {
+  display: flex;
+  width: 60%;
+  padding-left: 10%;
+}
+
+.logo-image {
+  width: 25px;
+  height: 25px;
+  margin-top: 5px;
+}
+
+.score-container {
+  display: flex;
+}
+
+.emoji-title {
+  font-weight: 500;
+  font-size: 10px;
+}
+
+.scores {
+  margin-right: 10px;
+  font-weight: 500;
+  font-size: 10px;
+}
+
+@media (min-width: 768px) {
+  .emoji-title {
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  .scores {
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .logo-container {
+    display: flex;
+    width: 65%;
+    padding-left: 10%;
+  }
+
+  .logo-image {
+    width: 45px;
+    height: 45px;
+    margin-top: 10px;
+  }
+}

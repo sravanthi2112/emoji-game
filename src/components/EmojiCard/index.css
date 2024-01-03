@@ -1,0 +1,54 @@
+/* Write your code here. */
+.each-emoji {
+  list-style-type: none;
+  background-color: #ffffff33;
+  border-radius: 10px;
+  border: #ffffff30 1px solid;
+  margin: 5px;
+}
+
+.emoji {
+  width: 60px;
+  height: 60px;
+  padding: 15%;
+}
+
+@media (min-width: 576px) {
+  .emoji {
+    width: 95px;
+    height: 95px;
+  }
+}
+
+@media (min-width: 768px) {
+  .emoji {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (min-width: 992px) {
+  .emoji {
+    width: 120px;
+    height: 120px;
+  }
+  .each-emoji {
+    margin: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .emoji {
+    width: 140px;
+    height: 140px;
+  }
+  .each-emoji {
+    padding: 1%;
+  }
+}
+
+
+.emoji-btn{
+  background-color: transparent;
+  border: 0px;
+}
